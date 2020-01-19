@@ -7,11 +7,20 @@
 //     public:
 //     //some mock tests
 // };
+shapes::Triangle tri{5,4,3};
 
-TEST(TriangleTest, isEquilateral)
+TEST(TriangleTests, getPerimeter)
 {
-    shapes::Triangle tri{2,2,2};
-    EXPECT_TRUE(tri.isEquilateral());
-    //EXPECT_TRUE(false);
+    EXPECT_EQ(12, tri.getPerimeter());
+}
 
+
+TEST(TriangleTests, getArea)
+{
+    EXPECT_EQ(6, tri.getArea());
+}
+
+TEST(TriangleTests, getKind)
+{
+    // EXPECT_EQ(Kind SCALENE, tri.getKind);
 }
