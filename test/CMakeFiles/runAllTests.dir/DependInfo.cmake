@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTest.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o"
+  "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o"
+  "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTests.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

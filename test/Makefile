@@ -171,32 +171,59 @@ runAllTests/fast:
 	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
 
-TriangleTest.o: TriangleTest.cpp.o
+HailstoneTests.o: HailstoneTests.cpp.o
 
-.PHONY : TriangleTest.o
+.PHONY : HailstoneTests.o
 
 # target to build an object file
-TriangleTest.cpp.o:
-	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o
-.PHONY : TriangleTest.cpp.o
+HailstoneTests.cpp.o:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o
+.PHONY : HailstoneTests.cpp.o
 
-TriangleTest.i: TriangleTest.cpp.i
+HailstoneTests.i: HailstoneTests.cpp.i
 
-.PHONY : TriangleTest.i
+.PHONY : HailstoneTests.i
 
 # target to preprocess a source file
-TriangleTest.cpp.i:
-	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.i
-.PHONY : TriangleTest.cpp.i
+HailstoneTests.cpp.i:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.i
+.PHONY : HailstoneTests.cpp.i
 
-TriangleTest.s: TriangleTest.cpp.s
+HailstoneTests.s: HailstoneTests.cpp.s
 
-.PHONY : TriangleTest.s
+.PHONY : HailstoneTests.s
 
 # target to generate assembly for a file
-TriangleTest.cpp.s:
-	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.s
-.PHONY : TriangleTest.cpp.s
+HailstoneTests.cpp.s:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.s
+.PHONY : HailstoneTests.cpp.s
+
+TriangleTests.o: TriangleTests.cpp.o
+
+.PHONY : TriangleTests.o
+
+# target to build an object file
+TriangleTests.cpp.o:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o
+.PHONY : TriangleTests.cpp.o
+
+TriangleTests.i: TriangleTests.cpp.i
+
+.PHONY : TriangleTests.i
+
+# target to preprocess a source file
+TriangleTests.cpp.i:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.i
+.PHONY : TriangleTests.cpp.i
+
+TriangleTests.s: TriangleTests.cpp.s
+
+.PHONY : TriangleTests.s
+
+# target to generate assembly for a file
+TriangleTests.cpp.s:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.s
+.PHONY : TriangleTests.cpp.s
 
 # Help Target
 help:
@@ -211,9 +238,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... runAllTests"
-	@echo "... TriangleTest.o"
-	@echo "... TriangleTest.i"
-	@echo "... TriangleTest.s"
+	@echo "... HailstoneTests.o"
+	@echo "... HailstoneTests.i"
+	@echo "... HailstoneTests.s"
+	@echo "... TriangleTests.o"
+	@echo "... TriangleTests.i"
+	@echo "... TriangleTests.s"
 .PHONY : help
 
 

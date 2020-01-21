@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTest.cpp
+/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp
 gtest/gtest.h
 /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/gtest/gtest.h
 gmock/gmock.h
 /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/gmock/gmock.h
-Triangle.h
-/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/Triangle.h
+Hailstone.h
+/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/Hailstone.h
 
-googletest-exercise/include/Triangle.h
+googletest-exercise/include/Hailstone.h
 stdint.h
 -
 

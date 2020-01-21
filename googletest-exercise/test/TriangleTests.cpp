@@ -2,16 +2,9 @@
 #include "gmock/gmock.h"
 #include "Triangle.h"
 
-// class FakeTriangle : public Triangle
-// {
-//     public:
-//     //some mock tests
-// };
-
-
 shapes::Triangle tri{5,4,3};
 
-//FAILED TESTS===========================================
+//3 FAILED TESTS===========================================
 
 TEST(TriangleTests, getPerimeterFail)
 {
@@ -29,7 +22,7 @@ TEST(TriangleTests, getKindFail)
     EXPECT_EQ(shapes::Triangle::Kind::EQUILATERAL, tri.getKind());
 }
 
-//PASSED TESTS===========================================
+//3 PASSED TESTS===========================================
 
 TEST(TriangleTests, getPerimeterPass)
 {

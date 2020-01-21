@@ -57,27 +57,42 @@ include test/CMakeFiles/runAllTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/runAllTests.dir/flags.make
 
-test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
-test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o: googletest-exercise/test/TriangleTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emleechxn/Desktop/473/assg1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o"
-	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/TriangleTest.cpp.o -c /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTest.cpp
+test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
+test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o: googletest-exercise/test/TriangleTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emleechxn/Desktop/473/assg1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/TriangleTests.cpp.o -c /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTests.cpp
 
-test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/TriangleTest.cpp.i"
-	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTest.cpp > CMakeFiles/runAllTests.dir/TriangleTest.cpp.i
+test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/TriangleTests.cpp.i"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTests.cpp > CMakeFiles/runAllTests.dir/TriangleTests.cpp.i
 
-test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/TriangleTest.cpp.s"
-	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTest.cpp -o CMakeFiles/runAllTests.dir/TriangleTest.cpp.s
+test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/TriangleTests.cpp.s"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTests.cpp -o CMakeFiles/runAllTests.dir/TriangleTests.cpp.s
+
+test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o: test/CMakeFiles/runAllTests.dir/flags.make
+test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o: googletest-exercise/test/HailstoneTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/emleechxn/Desktop/473/assg1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o -c /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp
+
+test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTests.dir/HailstoneTests.cpp.i"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp > CMakeFiles/runAllTests.dir/HailstoneTests.cpp.i
+
+test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTests.dir/HailstoneTests.cpp.s"
+	cd /Users/emleechxn/Desktop/473/assg1/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp -o CMakeFiles/runAllTests.dir/HailstoneTests.cpp.s
 
 # Object files for target runAllTests
 runAllTests_OBJECTS = \
-"CMakeFiles/runAllTests.dir/TriangleTest.cpp.o"
+"CMakeFiles/runAllTests.dir/TriangleTests.cpp.o" \
+"CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o"
 
 # External object files for target runAllTests
 runAllTests_EXTERNAL_OBJECTS =
 
-bin/runAllTests: test/CMakeFiles/runAllTests.dir/TriangleTest.cpp.o
+bin/runAllTests: test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o
+bin/runAllTests: test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o
 bin/runAllTests: test/CMakeFiles/runAllTests.dir/build.make
 bin/runAllTests: lib/libgmock.a
 bin/runAllTests: lib/libgtest.a
@@ -86,7 +101,7 @@ bin/runAllTests: lib/libsimpleLibrary.a
 bin/runAllTests: lib/libgtest.a
 bin/runAllTests: /usr/lib/libm.dylib
 bin/runAllTests: test/CMakeFiles/runAllTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emleechxn/Desktop/473/assg1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/runAllTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/emleechxn/Desktop/473/assg1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/runAllTests"
 	cd /Users/emleechxn/Desktop/473/assg1/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
