@@ -3,10 +3,6 @@
 #include "Hailstone.h"
 
 
-
-
-//FAILED TESTS===========================================
-
 TEST(HailstoneTests, isZeroFalse)
 {
     EXPECT_FALSE(sequence::satisfiesHailstone(0));

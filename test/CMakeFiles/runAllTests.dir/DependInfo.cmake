@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/AwardsTests.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/AwardsTests.cpp.o"
   "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/HailstoneTests.cpp.o"
   "/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/TriangleTests.cpp" "/Users/emleechxn/Desktop/473/assg1/test/CMakeFiles/runAllTests.dir/TriangleTests.cpp.o"
   )

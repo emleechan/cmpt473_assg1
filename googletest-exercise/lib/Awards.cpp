@@ -13,6 +13,7 @@ awards::performAwardCeremony(RankList& recipients, AwardCeremonyActions& actions
   actions.awardSilver(recipients.getNext());
   actions.awardGold(recipients.getNext());
   actions.turnOffTheLightsAndGoHome();
+  
 }
 
 

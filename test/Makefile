@@ -171,6 +171,33 @@ runAllTests/fast:
 	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/build
 .PHONY : runAllTests/fast
 
+AwardsTests.o: AwardsTests.cpp.o
+
+.PHONY : AwardsTests.o
+
+# target to build an object file
+AwardsTests.cpp.o:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/AwardsTests.cpp.o
+.PHONY : AwardsTests.cpp.o
+
+AwardsTests.i: AwardsTests.cpp.i
+
+.PHONY : AwardsTests.i
+
+# target to preprocess a source file
+AwardsTests.cpp.i:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/AwardsTests.cpp.i
+.PHONY : AwardsTests.cpp.i
+
+AwardsTests.s: AwardsTests.cpp.s
+
+.PHONY : AwardsTests.s
+
+# target to generate assembly for a file
+AwardsTests.cpp.s:
+	cd /Users/emleechxn/Desktop/473/assg1 && $(MAKE) -f test/CMakeFiles/runAllTests.dir/build.make test/CMakeFiles/runAllTests.dir/AwardsTests.cpp.s
+.PHONY : AwardsTests.cpp.s
+
 HailstoneTests.o: HailstoneTests.cpp.o
 
 .PHONY : HailstoneTests.o
@@ -238,6 +265,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... runAllTests"
+	@echo "... AwardsTests.o"
+	@echo "... AwardsTests.i"
+	@echo "... AwardsTests.s"
 	@echo "... HailstoneTests.o"
 	@echo "... HailstoneTests.i"
 	@echo "... HailstoneTests.s"

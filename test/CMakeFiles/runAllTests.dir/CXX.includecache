@@ -6,16 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/HailstoneTests.cpp
+/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/AwardsTests.cpp
 gtest/gtest.h
 /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/gtest/gtest.h
 gmock/gmock.h
 /Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/gmock/gmock.h
-Hailstone.h
-/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/Hailstone.h
+Awards.h
+/Users/emleechxn/Desktop/473/assg1/googletest-exercise/test/Awards.h
 
-googletest-exercise/include/Hailstone.h
-stdint.h
+googletest-exercise/include/Awards.h
+string
 -
 
 googletest-exercise/test/lib/googlemock/include/gmock/gmock-actions.h
